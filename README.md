@@ -8,7 +8,6 @@ A curated list of open-source projects building memory systems for AI agents.
 - [Mem0](https://github.com/mem0ai/mem0) - Plug-and-play memory layer that lets AI agents recall previous interactions.
 - [MemU](https://github.com/NevaMind-AI/memU) - Universal memory protocol for sharing context across cooperative AI agents.
 - [Zep](https://github.com/getzep/zep) - Long-term memory service for chatbots with vector search and embedding support.
-- [Quivr](https://github.com/StanGirard/quivr) - Second brain that stores documents and chat histories for retrieval by LLM agents.
 
 ## Contributing
 
