@@ -1,6 +1,6 @@
 # Awesome Agent Memory
 
-A curated list of open-source projects building memory systems for AI agents. Inspired by the [awesome](https://github.com/sindresorhus/awesome) movement.
+A curated list of open-source projects building memory systems for AI agents. 
 
 ## Projects
 
