@@ -1,6 +1,6 @@
 # Awesome Agent Memory
 
-A curated list of open-source projects building **memory systems for AI agents**. Each entry highlights what makes it stand out.
+A curated list of projects on **memory systems of AI agents**.
 
 ## Standalone Libraries / Frameworks for Building Agent Memory Systems
 
