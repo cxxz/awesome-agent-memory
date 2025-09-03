@@ -28,6 +28,17 @@ A curated list of open-source projects building **memory systems for AI agents**
 
 * **[Cognee](https://github.com/topoteretes/cognee)** – Extract-Cognify-Load pipeline that turns conversations/files into **graph + vector** memory to **replace/augment RAG** with relationship-aware recall.
 
+
+## Reinforcement-Learning Training for Agent Memory
+
+* **[MemAgent](https://github.com/BytedTsinghua-SIA/MemAgent)** – RL-trained long-context agent with a **memory mechanism** that enables arbitrarily long inputs within fixed windows; **RLVR-based** training and **linear-time** scaling, shown to extrapolate to **multi-million-token** tasks with minimal loss. 
+
+* **[MEM1](https://github.com/MIT-MI/MEM1)** – End-to-end RL that learns a **compact internal state** for **constant-memory** long-horizon agents; integrates new observations while discarding redundancy to improve efficiency. 
+
+* **[Memento](https://github.com/Agent-on-the-Fly/Memento)** – **Memory-based online RL** over a **memory-augmented MDP** with a **neural case-selection** policy; planner–executor loop reuses past trajectories so agents **learn without fine-tuning** the base LLM. 
+
+* **[Memory‑R1](https://arxiv.org/abs/2508.19828)** – the paper (*code not yet publicly available*) proposes an RL framework where a Memory Manager learns to add, update or delete memory entries and an Answer Agent learns to select relevant entries. Both agents are trained with PPO and GRPO to actively manage and utilise an external memory bank.
+
 ## MCP-Centric Memory Servers & Tools
 
 * **[Basic Memory](https://github.com/basicmachines-co/basic-memory)** – **Local-first Markdown** knowledge base exposed via MCP; bi-directional human/LLM editing with simple, file-backed persistence.
@@ -70,4 +81,3 @@ Contributions are welcome! If a project belongs here, open an issue or PR with:
 * One-to-two sentence description
 * A unique feature or highlight (e.g., storage model, retrieval strategy, tooling, compliance)
 * License and ecosystem (LangGraph, SK, AutoGen, MCP, etc.)
-
