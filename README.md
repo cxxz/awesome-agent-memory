@@ -29,6 +29,18 @@ A curated list of projects on **memory systems of AI agents**.
 
 * **[Nemori](https://github.com/nemori-ai/nemori)** – Self-organising long-term memory substrate for agentic LLM workflows. Nemori segments multi-turn conversations into topic-consistent episodes, distils durable semantic knowledge, and exposes a unified search surface for downstream reasoning. The system uses insights from Event Segmentation Theory and predictive processing and provides production-ready concurrency, caching and pluggable storage options.
 
+* **[ReMe (Agentscope)](https://github.com/agentscope-ai/ReMe)** – *Remember Me, Refine Me.* A modular **memory management kit** that unifies personal, task, and tool memories for agents. Features **refinement cycles**, **temporal prioritization**, and **Pydantic-backed schemas** to ensure memory coherence and relevance. 
+
+* **[Memori (GibsonAI)](https://github.com/GibsonAI/memori)** – **Open-source memory engine** for LLMs and agents with *entity extraction, auto-categorization, memory promotion, and multi-agent sync.* Supports **temporal retention policies**, **retrieval tuning**, and **cross-agent context exchange**. 
+
+* **[OpenMemory Engine](https://github.com/CaviraOSS/OpenMemory)** – Self-hosted, **sectorized semantic memory engine** with hierarchical storage, **auto decay**, and **explainable recall graphs**; integrates with LangGraph, Mem0, and MCP tools.
+
+* **[Task Memory Engine (TME)](https://github.com/biubiutomato/TME-Agent)** – Structured **task-level memory engine** combining **hierarchical trees** and **rollback-aware buffers** to track multi-step reasoning; enables **state reconstruction and planning** with minimal context tokens. 
+
+## Comparing Different Designs
+
+* **[AI Agent Memory Playground](https://github.com/AIAnytime/Agent-Memory-Playground)** – An interactive **evaluation suite** for 9 memory strategies (sequential, retrieval, hierarchical, decay-based, etc.). Includes simulation environment and plots for **token–recall trade-offs** and **forgetting dynamics**. *(Added Aug 2025)*
+
 ## Reinforcement-Learning Training for Agent Memory
 
 * **[MemAgent](https://github.com/BytedTsinghua-SIA/MemAgent)** – RL-trained long-context agent with a **memory mechanism** that enables arbitrarily long inputs within fixed windows; **RLVR-based** training and **linear-time** scaling, shown to extrapolate to **multi-million-token** tasks with minimal loss.
@@ -57,11 +69,18 @@ A curated list of projects on **memory systems of AI agents**.
 
 * **[MCP Memory Service (doobidoo)](https://github.com/doobidoo/mcp-memory-service)** – **Universal MCP** memory with **semantic search**, natural-language time filters, and storage options (SQLite-vec/Chroma/Cloudflare).
 
+* **[Supermemory MCP](https://supermemory.ai/blog/how-to-make-your-mcp-clients-share-context-with-supermemory-mcp/)** – **Graph memory service** implementing **MCP context sharing**, **cross-app recall**, and **relationship graphs** for multi-agent sessions.
+
+* **[MCP-Titan](https://github.com/henryhawke/mcp-titan)** – Experimental **neural memory engine** integrating **online vector processing** and **TensorFlow.js learning loops**, enabling live memory update and auto-retention control. 
+
+
 * **[Redis Agent Memory Server](https://github.com/redis/agent-memory-server)** – Redis-powered memory with **REST + MCP**, **two-tier memory** (session/long-term), configurable extraction, and pluggable vector backends.
 
 ## Memory Modules in Existing Agent Frameworks
 
 * **[LangMem (LangChain/LangGraph)](https://github.com/langchain-ai/langmem)** – SDK that gives agents **long-term, semantic memory** with tools to **store/search** memories in LangGraph stores, plus a managed service and templates.
+
+* **[LangGraph + MongoDB Store](https://www.mongodb.com/company/blog/product-release-announcements/powering-long-term-memory-for-agents-langgraph)** – Introduces a **persistent document memory layer** for LangGraph, combining **vector and document stores** for scalable long-term retention.
 
 * **[LlamaIndex – Agent Memory](https://docs.llamaindex.ai/en/stable/module_guides/deploying/agents/memory/)** – Unified APIs for **short- and long-term memory**, including **composable memory** so agents can combine multiple sources. Recent updates improve long/short-term blocks.
 
