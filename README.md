@@ -1,5 +1,4 @@
 # Awesome Agent Memory
-
 A curated list of projects on **memory systems of AI agents**.
 
 ## Standalone Libraries / Frameworks for Building Agent Memory Systems
@@ -28,16 +27,19 @@ A curated list of projects on **memory systems of AI agents**.
 
 * **[Cognee](https://github.com/topoteretes/cognee)** – Extract-Cognify-Load pipeline that turns conversations/files into **graph + vector** memory to **replace/augment RAG** with relationship-aware recall.
 
+* **[Nemori](https://github.com/nemori-ai/nemori)** – Self-organising long-term memory substrate for agentic LLM workflows. Nemori segments multi-turn conversations into topic-consistent episodes, distils durable semantic knowledge, and exposes a unified search surface for downstream reasoning. The system uses insights from Event Segmentation Theory and predictive processing and provides production-ready concurrency, caching and pluggable storage options.
 
 ## Reinforcement-Learning Training for Agent Memory
 
-* **[MemAgent](https://github.com/BytedTsinghua-SIA/MemAgent)** – RL-trained long-context agent with a **memory mechanism** that enables arbitrarily long inputs within fixed windows; **RLVR-based** training and **linear-time** scaling, shown to extrapolate to **multi-million-token** tasks with minimal loss. 
+* **[MemAgent](https://github.com/BytedTsinghua-SIA/MemAgent)** – RL-trained long-context agent with a **memory mechanism** that enables arbitrarily long inputs within fixed windows; **RLVR-based** training and **linear-time** scaling, shown to extrapolate to **multi-million-token** tasks with minimal loss.
 
-* **[MEM1](https://github.com/MIT-MI/MEM1)** – End-to-end RL that learns a **compact internal state** for **constant-memory** long-horizon agents; integrates new observations while discarding redundancy to improve efficiency. 
+* **[MEM1](https://github.com/MIT-MI/MEM1)** – End-to-end RL that learns a **compact internal state** for **constant-memory** long-horizon agents; integrates new observations while discarding redundancy to improve efficiency.
 
-* **[Memento](https://github.com/Agent-on-the-Fly/Memento)** – **Memory-based online RL** over a **memory-augmented MDP** with a **neural case-selection** policy; planner–executor loop reuses past trajectories so agents **learn without fine-tuning** the base LLM. 
+* **[Memento](https://github.com/Agent-on-the-Fly/Memento)** – **Memory-based online RL** over a **memory-augmented MDP** with a **neural case-selection** policy; planner–executor loop reuses past trajectories so agents **learn without fine-tuning** the base LLM.
 
-* **[Memory‑R1](https://arxiv.org/abs/2508.19828)** – the paper (*code not yet publicly available*) proposes an RL framework where a Memory Manager learns to add, update or delete memory entries and an Answer Agent learns to select relevant entries. Both agents are trained with PPO and GRPO to actively manage and utilise an external memory bank.
+* **[Memory-R1](https://arxiv.org/abs/2508.19828)** – the paper (*code not yet publicly available*) proposes an RL framework where a Memory Manager learns to add, update or delete memory entries and an Answer Agent learns to select relevant entries. Both agents are trained with PPO and GRPO to actively manage and utilise an external memory bank.
+
+* **[Mem-α](https://arxiv.org/abs/2509.25911)** – RL framework that teaches agents how to build and manage complex memory systems through interaction and feedback. Agents process sequential information, learn to extract and store relevant content, and update core/episodic/semantic memory components; rewards derive from downstream question-answering accuracy.
 
 ## MCP-Centric Memory Servers & Tools
 
@@ -57,21 +59,19 @@ A curated list of projects on **memory systems of AI agents**.
 
 * **[Redis Agent Memory Server](https://github.com/redis/agent-memory-server)** – Redis-powered memory with **REST + MCP**, **two-tier memory** (session/long-term), configurable extraction, and pluggable vector backends.
 
-
 ## Memory Modules in Existing Agent Frameworks
 
-* **[LangMem (LangChain/LangGraph)](https://github.com/langchain-ai/langmem)** – SDK that gives agents **long-term, semantic memory** with tools to **store/search** memories in LangGraph stores, plus a managed service and templates. 
+* **[LangMem (LangChain/LangGraph)](https://github.com/langchain-ai/langmem)** – SDK that gives agents **long-term, semantic memory** with tools to **store/search** memories in LangGraph stores, plus a managed service and templates.
 
-* **[LlamaIndex – Agent Memory](https://docs.llamaindex.ai/en/stable/module_guides/deploying/agents/memory/)** – Unified APIs for **short- and long-term memory**, including **composable memory** so agents can combine multiple sources. Recent updates improve long/short-term blocks. 
+* **[LlamaIndex – Agent Memory](https://docs.llamaindex.ai/en/stable/module_guides/deploying/agents/memory/)** – Unified APIs for **short- and long-term memory**, including **composable memory** so agents can combine multiple sources. Recent updates improve long/short-term blocks.
 
-* **[Microsoft Semantic Kernel – Memory Plugin](https://www.nuget.org/packages/Microsoft.SemanticKernel.Plugins.Memory)** – Embeddings-based **memory plugin** (e.g., `TextMemoryPlugin`) to **save/recall** short/long-term info across agents in .NET/JS/py SK apps. 
+* **[Microsoft Semantic Kernel – Memory Plugin](https://www.nuget.org/packages/Microsoft.SemanticKernel.Plugins.Memory)** – Embeddings-based **memory plugin** (e.g., `TextMemoryPlugin`) to **save/recall** short/long-term info across agents in .NET/JS/py SK apps.
 
-* **[Microsoft AutoGen – Memory](https://microsoft.github.io/autogen/stable//user-guide/agentchat-user-guide/memory.html)** – Provides a **Memory protocol** (e.g., `ListMemory`) and official notebooks showing **long-term memory with Zep** and **Mem0** in conversational agents. 
+* **[Microsoft AutoGen – Memory](https://microsoft.github.io/autogen/stable//user-guide/agentchat-user-guide/memory.html)** – Provides a **Memory protocol** (e.g., `ListMemory`) and official notebooks showing **long-term memory with Zep** and **Mem0** in conversational agents.
 
-* **[Hugging Face smolagents – Memory](https://huggingface.co/docs/smolagents/en/tutorials/memory)** – Exposes a first-class **agent memory** you can **inspect/replay/modify**; supports step callbacks for dynamic memory policies. 
+* **[Hugging Face smolagents – Memory](https://huggingface.co/docs/smolagents/en/tutorials/memory)** – Exposes a first-class **agent memory** you can **inspect/replay/modify**; supports step callbacks for dynamic memory policies.
 
-* **[CrewAI – Memory](https://docs.crewai.com/concepts/memory)** – Adds **short-term (RAG)** and **long-term** stores (e.g., SQLite-backed) so crews **retain insights across executions** and reuse them later. 
-
+* **[CrewAI – Memory](https://docs.crewai.com/concepts/memory)** – Adds **short-term (RAG)** and **long-term** stores (e.g., SQLite backed) so crews **retain insights across executions** and reuse them later.
 
 ## Contributing
 
