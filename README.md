@@ -1,6 +1,10 @@
 # Awesome Agent Memory
 A curated list of projects on **memory systems of AI agents**.
 
+## Comparing Different Designs
+
+* **[AI Agent Memory Playground](https://github.com/AIAnytime/Agent-Memory-Playground)** – An interactive **evaluation suite** for 9 memory strategies (sequential, retrieval, hierarchical, decay-based, etc.). Includes simulation environment and plots for **token–recall trade-offs** and **forgetting dynamics**. 
+
 ## Standalone Libraries / Frameworks for Building Agent Memory Systems
 
 * **[Letta (formerly MemGPT)](https://github.com/letta-ai/letta)** – Memory hierarchy with editable **memory blocks**, agentic context tools, **multi-agent shared memory**, and portable **Agent File (.af)** snapshots.
@@ -36,10 +40,6 @@ A curated list of projects on **memory systems of AI agents**.
 * **[OpenMemory Engine](https://github.com/CaviraOSS/OpenMemory)** – Self-hosted, **sectorized semantic memory engine** with hierarchical storage, **auto decay**, and **explainable recall graphs**; integrates with LangGraph, Mem0, and MCP tools.
 
 * **[Task Memory Engine (TME)](https://github.com/biubiutomato/TME-Agent)** – Structured **task-level memory engine** combining **hierarchical trees** and **rollback-aware buffers** to track multi-step reasoning; enables **state reconstruction and planning** with minimal context tokens. 
-
-## Comparing Different Designs
-
-* **[AI Agent Memory Playground](https://github.com/AIAnytime/Agent-Memory-Playground)** – An interactive **evaluation suite** for 9 memory strategies (sequential, retrieval, hierarchical, decay-based, etc.). Includes simulation environment and plots for **token–recall trade-offs** and **forgetting dynamics**. *(Added Aug 2025)*
 
 ## Reinforcement-Learning Training for Agent Memory
 
