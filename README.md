@@ -37,6 +37,8 @@ A curated list of projects on **memory systems of AI agents**.
 
 * **[Memori](https://github.com/GibsonAI/memori)** – **Open-source memory engine** for LLMs and agents with *entity extraction, auto-categorization, memory promotion, and multi-agent sync.* Supports **temporal retention policies**, **retrieval tuning**, and **cross-agent context exchange**. 
 
+* **[O-Mem](https://github.com/OPPO-PersonalAI/O-Mem)** – *Omni memory system for personalized, long‑horizon, self‑evolving agents.* It views memory as an active user‑modelling process: it continually extracts and updates **user persona attributes**, **event records**, and **topic‑indexed messages**.  This enables **dynamic user profiling**, a **three‑layer hierarchical memory** (persona, event and message), **user‑centric retrieval**, and **interaction‑time scaling**.  O‑Mem includes an evaluation suite and exposes modular APIs under the Apache‑2.0 license.
+
 * **[OpenMemory Engine](https://github.com/CaviraOSS/OpenMemory)** – Self-hosted, **sectorized semantic memory engine** with hierarchical storage, **auto decay**, and **explainable recall graphs**; integrates with LangGraph, Mem0, and MCP tools.
 
 * **[Task Memory Engine](https://github.com/biubiutomato/TME-Agent)** – Structured **task-level memory engine** combining **hierarchical trees** and **rollback-aware buffers** to track multi-step reasoning; enables **state reconstruction and planning** with minimal context tokens. 
