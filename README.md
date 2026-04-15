@@ -102,6 +102,8 @@ A curated list of projects on **memory systems of AI agents**.
 
 * **[Redis Agent Memory Server](https://github.com/redis/agent-memory-server)** – Redis-powered memory with **REST + MCP**, **two-tier memory** (session/long-term), configurable extraction, and pluggable vector backends.
 
+* **[MemClaw](https://github.com/Felo-Inc/memclaw)** – **Project-isolated MCP memory** for AI coding agents; creates a separate memory workspace per project with a **web dashboard** for reviewing and managing what your AI remembers. Free to use, MIT licensed. ([Site](https://memclaw.me))
+
 ## Contributing
 
 Contributions are welcome! If a project belongs here, open an issue or PR with:
