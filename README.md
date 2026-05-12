@@ -97,7 +97,9 @@ A curated list of projects on **memory systems of AI agents**.
 
 * **[Supermemory MCP](https://supermemory.ai/blog/how-to-make-your-mcp-clients-share-context-with-supermemory-mcp/)** – **Graph memory service** implementing **MCP context sharing**, **cross-app recall**, and **relationship graphs** for multi-agent sessions.
 
-* **[MCP-Titan](https://github.com/henryhawke/mcp-titan)** – Experimental **neural memory engine** integrating **online vector processing** and **TensorFlow.js learning loops**, enabling live memory update and auto-retention control. 
+* **[MCP-Titan](https://github.com/henryhawke/mcp-titan)** – Experimental **neural memory engine** integrating **online vector processing** and **TensorFlow.js learning loops**, enabling live memory update and auto-retention control.
+
+* **[Dakera MCP](https://github.com/dakera-ai/dakera-mcp)** – Production-grade **self-hosted** MCP memory server achieving **87.8% on the LoCoMo benchmark**. Exposes **83 MCP tools** covering store, recall, search, decay, sessions, and knowledge-graph operations. Built in **Rust** with **RocksDB + HNSW** persistence; self-deploy via Docker Compose with MinIO storage and Prometheus metrics. Zero external LLM API dependencies.
 
 
 * **[Redis Agent Memory Server](https://github.com/redis/agent-memory-server)** – Redis-powered memory with **REST + MCP**, **two-tier memory** (session/long-term), configurable extraction, and pluggable vector backends.
