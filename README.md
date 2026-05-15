@@ -50,6 +50,8 @@ A curated list of projects on **memory systems of AI agents**.
 
 ## Memory Modules in Existing Agent Frameworks
 
+* **[Ars Contexta](https://github.com/agenticnotetaking/arscontexta)** – A **second brain** for your agent. A **Claude Code plugin** that generates complete knowledge systems from conversation — you describe how you think and work, and the engine derives a **cognitive architecture** (folder structure, context files, processing pipeline, hooks, navigation maps, and note templates) tailored to your domain and backed by **249 research claims**. No templates, no configuration — just conversation.
+
 * **[LangMem](https://github.com/langchain-ai/langmem)** – SDK that gives agents **long-term, semantic memory** with tools to **store/search** memories in LangGraph stores, plus a managed service and templates.
 
 * **[Claude-Mem](https://github.com/thedotmack/claude-mem)** – Persistent memory compression system for **Claude Code** that automatically captures tool-usage observations and generates semantic summaries for reuse across sessions. Offers **progressive disclosure** retrieval with token-cost visibility, a **mem-search** skill with hybrid semantic + keyword search, and a local **web viewer UI** for inspecting the memory stream. Includes privacy controls (e.g., `<private>` exclusion) and configurable context injection.
