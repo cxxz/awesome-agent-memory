@@ -5,6 +5,9 @@ A curated list of projects on **memory systems of AI agents**.
 
 * **[AI Agent Memory Playground](https://github.com/AIAnytime/Agent-Memory-Playground)** – An interactive **evaluation suite** for 9 memory strategies (sequential, retrieval, hierarchical, decay-based, etc.). Includes simulation environment and plots for **token–recall trade-offs** and **forgetting dynamics**. 
 
+* **[Agent Memory Hub](https://agentmemoryhub.vercel.app/)** – A live model directory to search and explore the agent memory ecosystem.
+
+
 ## Standalone Libraries / Frameworks for Building Agent Memory Systems
 
 * **[Letta](https://github.com/letta-ai/letta)** – Memory hierarchy with editable **memory blocks**, agentic context tools, **multi-agent shared memory**, and portable **Agent File (.af)** snapshots.
