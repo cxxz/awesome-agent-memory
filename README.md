@@ -86,6 +86,8 @@ A curated list of projects on **memory systems of AI agents**.
 
 ## MCP-Centric Memory Servers & Tools
 
+* **[Akephalos](https://github.com/sunnja69/akephalos)** – Local-first, markdown-first `.akephalos` passport and MCP stdio server for portable agent preferences, tool notes, rules, project context, and durable memories across agents/tools and machines via plain files/Git. MIT-licensed; focused on file-backed memory/context portability rather than hosted sync.
+
 * **[Basic Memory](https://github.com/basicmachines-co/basic-memory)** – **Local-first Markdown** knowledge base exposed via MCP; bi-directional human/LLM editing with simple, file-backed persistence.
 
 * **[OpenMemory MCP](https://mem0.dev/openmemory)** – Mem0’s **local-only** MCP server that centralizes cross-tool memory with a unified dashboard.
