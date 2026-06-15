@@ -86,6 +86,8 @@ A curated list of projects on **memory systems of AI agents**.
 
 ## MCP-Centric Memory Servers & Tools
 
+* **[AccInt](https://github.com/maxbaluev/accreted-intelligence)** – Local-first **Work Model + MCP server** for coding-agent memory across Claude Code, OpenCode, Codex, and Cursor. Uses a **SQLite-backed** memory substrate with `acc_retrieve`/`acc_act` tools and feeds verified outcomes back into future retrieval. [Homepage](https://accint.xyz/). Public integration glue with private engine.
+
 * **[Basic Memory](https://github.com/basicmachines-co/basic-memory)** – **Local-first Markdown** knowledge base exposed via MCP; bi-directional human/LLM editing with simple, file-backed persistence.
 
 * **[OpenMemory MCP](https://mem0.dev/openmemory)** – Mem0’s **local-only** MCP server that centralizes cross-tool memory with a unified dashboard.
