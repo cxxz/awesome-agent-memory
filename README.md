@@ -86,7 +86,7 @@ A curated list of projects on **memory systems of AI agents**.
 
 ## MCP-Centric Memory Servers & Tools
 
-* **[agentage Memory](https://memory.agentage.io)** – *One memory. Every AI. Owned by you.* A **remote, hosted MCP server** (Streamable HTTP at `https://memory.agentage.io/mcp`) that gives every AI client one shared memory: a **git-backed Markdown store you own** (mirrored locally as plain `.md`, exportable anytime) searched with `git grep`. Cross-vendor across Claude / Cursor / ChatGPT via 6 tools (`memory__search/read/write/edit/list/delete`). Secured with **OAuth 2.1 + PKCE + Dynamic Client Registration**. Registry: `io.agentage/memory`.
+* **[Agentage Memory](https://memory.agentage.io)** – *One memory. Every AI. Owned by you.* A **remote, hosted MCP server** (Streamable HTTP at `https://memory.agentage.io/mcp`) that gives every AI client one shared memory: a **git-backed Markdown store you own** (mirrored locally as plain `.md`, exportable anytime) searched with `git grep`. Cross-vendor across Claude / Cursor / ChatGPT via 6 tools (`memory__search/read/write/edit/list/delete`). Secured with **OAuth 2.1 + PKCE + Dynamic Client Registration**. Registry: `io.agentage/memory`.
 
 * **[Basic Memory](https://github.com/basicmachines-co/basic-memory)** – **Local-first Markdown** knowledge base exposed via MCP; bi-directional human/LLM editing with simple, file-backed persistence.
 
