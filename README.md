@@ -104,6 +104,7 @@ A curated list of projects on **memory systems of AI agents**.
 
 * **[MCP-Titan](https://github.com/henryhawke/mcp-titan)** – Experimental **neural memory engine** integrating **online vector processing** and **TensorFlow.js learning loops**, enabling live memory update and auto-retention control. 
 
+* **[Vestige](https://github.com/samvallad33/vestige)** – Local-first **MCP memory server** for coding agents, built as a Rust binary with SQLite storage, FSRS-style retention, hybrid retrieval, provenance/correction tools, and an inspectable 3D dashboard.
 
 * **[Redis Agent Memory Server](https://github.com/redis/agent-memory-server)** – Redis-powered memory with **REST + MCP**, **two-tier memory** (session/long-term), configurable extraction, and pluggable vector backends.
 
