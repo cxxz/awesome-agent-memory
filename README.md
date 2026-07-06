@@ -107,6 +107,8 @@ A curated list of projects on **memory systems of AI agents**.
 
 * **[Redis Agent Memory Server](https://github.com/redis/agent-memory-server)** – Redis-powered memory with **REST + MCP**, **two-tier memory** (session/long-term), configurable extraction, and pluggable vector backends.
 
+* **[Mnemoverse](https://github.com/mnemoverse/mcp-memory-server)** – **Hosted** persistent-memory API exposed via MCP; one API key gives the same memory across **Claude, Cursor, VS Code, ChatGPT** and any MCP client. Not a vector DB: **importance scoring** on write, **associative (Hebbian) recall**, and **recency-based forgetting**. MCP server + Python SDK are **open source (MIT)**; free tier. Grounded in the published **SLoD** method ([arXiv:2603.08965](https://arxiv.org/abs/2603.08965)).
+
 ## Contributing
 
 Contributions are welcome! If a project belongs here, open an issue or PR with:
