@@ -46,6 +46,8 @@ A curated list of projects on **memory systems of AI agents**.
 
 * **[Task Memory Engine](https://github.com/biubiutomato/TME-Agent)** – Structured **task-level memory engine** combining **hierarchical trees** and **rollback-aware buffers** to track multi-step reasoning; enables **state reconstruction and planning** with minimal context tokens. 
 
+* **[Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory)** – **Local-first Rust** memory lifecycle framework and CLI for AI agents, with project-scoped `.tree-ring` SQLite/FTS storage, evidence-aware recall, redaction/delete paths, consolidation, and supersession. Includes **CLI/TUI workflows**, JSON output for harness integrations, MIT licensing, and adapter guidance for framework-agnostic agent tools.
+
 * **[Persistent AI Memory System](https://github.com/Savantskie/persistent-ai-memory)** – Persistent, searchable memory plus **tool-usage logs**, deduping/self-reflection, and cross-conversation sync.
 
 ## Memory Modules in Existing Agent Frameworks
