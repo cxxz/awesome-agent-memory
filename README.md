@@ -86,6 +86,8 @@ A curated list of projects on **memory systems of AI agents**.
 
 ## MCP-Centric Memory Servers & Tools
 
+* **[Lians](https://github.com/Lians-ai/Lians)** - Apache-2.0, local-first MCP memory for AI agents with deterministic supersession, point-in-time recall, erasure proofs, and tamper-evident audit history. Includes Python, TypeScript, Java, and Go SDKs.
+
 * **[Basic Memory](https://github.com/basicmachines-co/basic-memory)** – **Local-first Markdown** knowledge base exposed via MCP; bi-directional human/LLM editing with simple, file-backed persistence.
 
 * **[OpenMemory MCP](https://mem0.dev/openmemory)** – Mem0’s **local-only** MCP server that centralizes cross-tool memory with a unified dashboard.
