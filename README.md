@@ -90,6 +90,8 @@ A curated list of projects on **memory systems of AI agents**.
 
 * **[OpenMemory MCP](https://mem0.dev/openmemory)** – Mem0’s **local-only** MCP server that centralizes cross-tool memory with a unified dashboard.
 
+* **[datamcp Agent Memory](https://datamcp.app/mcp-memory-server)** – **Hosted remote MCP memory server** for structured shared project context, with project-scoped links, controlled write modes, PostgreSQL full-text search, structured work logs, and compact handoffs. Part of the MCP ecosystem; hosted service with a public integration repository and no declared open-source license.
+
 * **[Memory MCP Server (Swift)](https://github.com/okooo5km/memory-mcp-server)** – Lightweight MCP server for **entity/relation** memory graphs with JSON storage and a simple CLI.
 
 * **[memory (HamzaFarhan)](https://github.com/HamzaFarhan/memory)** – Minimal **knowledge-graph** MCP server (entities/relations/observations) with JSON persistence and flexible search modes.
