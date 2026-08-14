@@ -48,6 +48,8 @@ A curated list of projects on **memory systems of AI agents**.
 
 * **[Persistent AI Memory System](https://github.com/Savantskie/persistent-ai-memory)** – Persistent, searchable memory plus **tool-usage logs**, deduping/self-reflection, and cross-conversation sync.
 
+* **[LWC](https://github.com/JanYork/llm-wiki-cli)** – Agent-driven proactive project memory that compiles selected sources into a durable **SQLite-backed Wiki** with citations, provenance, FTS5 retrieval, atomic changesets, and optional document/code graphs. A single bounded read-only **MCP** tool plus native Skills and lifecycle Hooks integrates the same memory across supported coding-agent hosts.
+
 ## Memory Modules in Existing Agent Frameworks
 
 * **[Ars Contexta](https://github.com/agenticnotetaking/arscontexta)** – A **second brain** for your agent. A **Claude Code plugin** that generates complete knowledge systems from conversation — you describe how you think and work, and the engine derives a **cognitive architecture** (folder structure, context files, processing pipeline, hooks, navigation maps, and note templates) tailored to your domain and backed by **249 research claims**. No templates, no configuration — just conversation.
