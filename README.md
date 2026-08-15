@@ -48,6 +48,8 @@ A curated list of projects on **memory systems of AI agents**.
 
 * **[Persistent AI Memory System](https://github.com/Savantskie/persistent-ai-memory)** – Persistent, searchable memory plus **tool-usage logs**, deduping/self-reflection, and cross-conversation sync.
 
+* **[OpenViking](https://github.com/volcengine/OpenViking)** – Self-evolving **context database** for AI agents that unifies **agent memory**, **knowledge RAG**, and **skills** behind one interface; ships a portable **Agent Plugins** package format (agent-plugins.org) for distributing memory/skill plugins across agents.
+
 ## Memory Modules in Existing Agent Frameworks
 
 * **[Ars Contexta](https://github.com/agenticnotetaking/arscontexta)** – A **second brain** for your agent. A **Claude Code plugin** that generates complete knowledge systems from conversation — you describe how you think and work, and the engine derives a **cognitive architecture** (folder structure, context files, processing pipeline, hooks, navigation maps, and note templates) tailored to your domain and backed by **249 research claims**. No templates, no configuration — just conversation.
