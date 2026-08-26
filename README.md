@@ -105,6 +105,8 @@ A curated list of projects on **memory systems of AI agents**.
 * **[MCP-Titan](https://github.com/henryhawke/mcp-titan)** – Experimental **neural memory engine** integrating **online vector processing** and **TensorFlow.js learning loops**, enabling live memory update and auto-retention control. 
 
 
+* **[RCLL (fleet-memory)](https://github.com/holetron-lab/fleet-memory)** – Self-hosted **shared** memory for a *team* of agents rather than for one: facts are scoped by topic **room**, typed by hall and tiered **L0–L3** over **Postgres + pgvector**. The **read path never invokes a language model**, so a recall costs CPU and zero model tokens; the project publishes its own ablation of what one pooled store costs against ten private ones. MIT, MCP over stdio, fork of [Hindsight](https://github.com/vectorize-io/hindsight).
+
 * **[Redis Agent Memory Server](https://github.com/redis/agent-memory-server)** – Redis-powered memory with **REST + MCP**, **two-tier memory** (session/long-term), configurable extraction, and pluggable vector backends.
 
 ## Contributing
