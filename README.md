@@ -48,6 +48,9 @@ A curated list of projects on **memory systems of AI agents**.
 
 * **[Persistent AI Memory System](https://github.com/Savantskie/persistent-ai-memory)** – Persistent, searchable memory plus **tool-usage logs**, deduping/self-reflection, and cross-conversation sync.
 
+* **[GoodMem](https://goodmem.ai)** – Governed memory layer for agentic AI: **owners, roles, scoped API keys, and auditable retrieval logging** built in; **multi-modal** memory (text, image, audio, video) with hybrid semantic search plus reranking. Proprietary; self-hosted (free for commercial use) or managed cloud. SDKs in Python, TypeScript, Java, .NET, Go; integrations for Google ADK, Semantic Kernel, LangChain, LlamaIndex, and MCP (Claude Code, Codex).
+
+
 ## Memory Modules in Existing Agent Frameworks
 
 * **[Ars Contexta](https://github.com/agenticnotetaking/arscontexta)** – A **second brain** for your agent. A **Claude Code plugin** that generates complete knowledge systems from conversation — you describe how you think and work, and the engine derives a **cognitive architecture** (folder structure, context files, processing pipeline, hooks, navigation maps, and note templates) tailored to your domain and backed by **249 research claims**. No templates, no configuration — just conversation.
