@@ -102,6 +102,8 @@ A curated list of projects on **memory systems of AI agents**.
 
 * **[Supermemory MCP](https://supermemory.ai/blog/how-to-make-your-mcp-clients-share-context-with-supermemory-mcp/)** – **Graph memory service** implementing **MCP context sharing**, **cross-app recall**, and **relationship graphs** for multi-agent sessions.
 
+* **[Mnemoverse](https://github.com/mnemoverse/mcp-memory-server)** – **Hosted memory over MCP** with **outcome-reported re-ranking**: the agent says whether a recalled memory helped or misled, and later recall changes accordingly; one key shared across Claude Code, Cursor, VS Code and ChatGPT. MIT server, hosted engine, free tier.
+
 * **[MCP-Titan](https://github.com/henryhawke/mcp-titan)** – Experimental **neural memory engine** integrating **online vector processing** and **TensorFlow.js learning loops**, enabling live memory update and auto-retention control. 
 
 
