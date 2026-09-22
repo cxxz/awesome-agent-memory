@@ -86,6 +86,8 @@ A curated list of projects on **memory systems of AI agents**.
 
 ## MCP-Centric Memory Servers & Tools
 
+* **[Screenpipe](https://github.com/screenpipe/screenpipe)** – **Screen and audio history** for agents via [MCP and the local API](https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp), with searchable captured text, meeting recall, and activity summaries. Requires a running local recorder and API key; source-available under the [Screenpipe Commercial License](https://github.com/screenpipe/screenpipe/blob/main/LICENSE.md), with configured AI clients, cloud transcription, sync, or integrations able to send context off-device.
+
 * **[Basic Memory](https://github.com/basicmachines-co/basic-memory)** – **Local-first Markdown** knowledge base exposed via MCP; bi-directional human/LLM editing with simple, file-backed persistence.
 
 * **[OpenMemory MCP](https://mem0.dev/openmemory)** – Mem0’s **local-only** MCP server that centralizes cross-tool memory with a unified dashboard.
