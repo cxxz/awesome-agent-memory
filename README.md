@@ -86,6 +86,8 @@ A curated list of projects on **memory systems of AI agents**.
 
 ## MCP-Centric Memory Servers & Tools
 
+* **[Hyperconsciousness](https://github.com/louis030195/hyperconsciousness)** – Developer-alpha Rust knowledge store with **encrypted, append-only records** and an **MCP server** for access through scoped, expiring grants. MIT licensed; install from source.
+
 * **[Basic Memory](https://github.com/basicmachines-co/basic-memory)** – **Local-first Markdown** knowledge base exposed via MCP; bi-directional human/LLM editing with simple, file-backed persistence.
 
 * **[OpenMemory MCP](https://mem0.dev/openmemory)** – Mem0’s **local-only** MCP server that centralizes cross-tool memory with a unified dashboard.
