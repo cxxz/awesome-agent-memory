@@ -9,6 +9,7 @@ A curated list of projects on **memory systems of AI agents**.
 
 
 ## Standalone Libraries / Frameworks for Building Agent Memory Systems
+* **[Vestige](https://github.com/samvallad33/vestige)** - Vestige keeps agent memory on an append-only, hash-chained log. Every write leaves a receipt and every answer names the records behind it. When something breaks, you can walk the chain back to the change that caused it. Local Rust MCP server, no vectors, no RAG.
 
 * **[Letta](https://github.com/letta-ai/letta)** – Memory hierarchy with editable **memory blocks**, agentic context tools, **multi-agent shared memory**, and portable **Agent File (.af)** snapshots.
 
