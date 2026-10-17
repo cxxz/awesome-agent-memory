@@ -107,6 +107,8 @@ A curated list of projects on **memory systems of AI agents**.
 
 * **[Redis Agent Memory Server](https://github.com/redis/agent-memory-server)** – Redis-powered memory with **REST + MCP**, **two-tier memory** (session/long-term), configurable extraction, and pluggable vector backends.
 
+* **[Selvedge](https://github.com/masondelan/selvedge)** – Local **SQLite decision memory** for coding agents, exposed through MCP and CLI. Records rationale, rejected approaches, and explicit revisions so later sessions can inspect prior decisions; MIT licensed.
+
 ## Contributing
 
 Contributions are welcome! If a project belongs here, open an issue or PR with:
