@@ -68,6 +68,8 @@ A curated list of projects on **memory systems of AI agents**.
 
 * **[CrewAI – Memory](https://docs.crewai.com/concepts/memory)** – Adds **short-term (RAG)** and **long-term** stores (e.g., SQLite backed) so crews **retain insights across executions** and reuse them later.
 
+* **[agent-qa](https://vostride.com)** – **Evidence-gated app memory for AI QA** on web, Android and iOS: memidex retains verified facts, cautions and procedures as inspectable files, then checks them against later runs. **Ecosystem:** TypeScript/Node.js, CLI, local dashboard and QA MCP; **license:** [FSL-1.1-ALv2](https://github.com/vostride/agent-qa/blob/main/LICENSE.md) ([memory docs](https://vostride.com/docs/agent-qa/memory), [code](https://github.com/vostride/agent-qa)).
+
 ## Reinforcement-Learning Training for Agent Memory
 
 * **[MemSearcher](https://github.com/icip-cas/MemSearcher)** – RL-driven search agent that maintains a **compact memory**, fusing each query with memory to generate reasoning traces, perform search actions, and update memory to keep only task-relevant information (stabilizing context length across long multi-turn runs). Uses **multi-context GRPO** end-to-end RL to jointly optimize reasoning, search, and memory management.
